@@ -1,0 +1,15 @@
+export const ACCESS_TOKEN = 'accessToken'
+export const USER_INFO = 'userInfo'
+export const USER_NAME = 'userName'
+export const DON_VI = 'donvi'
+export const SUCCESS = 0
+export const EMPTY_DATA = 1
+export const PARAM_INVALID = 2
+export const CHILD_EXISTS = 3
+export const INSERT_AUTH = 4
+export const SELECT_AUTH = 5
+export const UNKNOW_ERROR = 99
+export const REGEX_CODE = /^([a-zA-Z0-9]+)*$/
+export const REGEX_CODE_LOWER = /^([a-z0-9]+)*$/
+export const REGEX_Number_Negative = /^([0-9]+)*$/
+export const REGEX_Expression = /^([a-zA-Z0-9_]+)*$/

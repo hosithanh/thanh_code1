@@ -1,0 +1,20 @@
+.title_baocao {
+    font-weight: 600;
+    font-size: 14px;
+}
+.stt {
+    text-align: center;
+    padding-inline: inherit;
+}
+.radio--quy {
+    text-align: left;
+}
+
+.date--ngaybatdau {
+    margin-right: 20px;
+}
+@media only screen and (max-width: 991px) {
+    .date--ngaybatdau {
+        margin-right: 0px;
+    }
+}

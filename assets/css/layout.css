@@ -1,0 +1,458 @@
+.trigger {
+    font-size: 18px;
+    line-height: 50px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.trigger:hover {
+    color: #009cd7;
+}
+
+.ant-layout-sider {
+    background: #fff !important;
+    box-shadow: 2px 0px 5px rgb(0 0 0 / 25%);
+}
+
+.ant-layout-sider-trigger {
+    background: #e6f7ff !important;
+}
+
+.ant-layout-sider-trigger > span {
+    color: #009cd7;
+}
+
+.site-layout {
+    margin-top: 60px;
+    height: calc(100vh - 60px);
+    overflow: hidden;
+}
+
+.site-layout .site-layout-background {
+    background: #fff;
+    min-height: calc(100vh - 70px);
+    height: calc(100vh - 128px);
+    bottom: 50px;
+}
+
+.layout-header {
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    padding: 0 22px;
+    background: #009cd7;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    color: #fff;
+}
+
+.group-action {
+    text-align: right;
+}
+
+.group-action > button:first-child {
+    margin-right: 5px;
+}
+
+.group-btn-detail {
+    position: absolute;
+    right: 0;
+    top: -50px;
+    z-index: 1;
+}
+
+.group-btn-detail > button:first-child {
+    margin-right: 5px;
+}
+
+.group-btn-detail > button:last-child {
+    margin-left: 5px;
+}
+
+.custom-form {
+    position: relative;
+}
+
+.user-detail .ant-form-item-label {
+    min-width: 140px;
+    text-align: left;
+}
+
+.avatar_user {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin-right: 10px;
+    font-size: 22px;
+    height: 35px;
+    width: 35px;
+}
+
+.layout-header .logo-header {
+    display: flex;
+    align-items: center;
+}
+
+.layout-header .logo-header .anticon {
+    color: #fff !important;
+}
+
+.layout-header .logo-header .anticon svg {
+    position: relative;
+    top: 2px;
+}
+
+.layout-header .title-header {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    height: 100%;
+}
+
+.user > img {
+    margin-right: 6px;
+}
+
+.user > span {
+    font-weight: 600;
+    font-size: 22px !important;
+}
+
+.user_info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user_info > span:first-child {
+    height: 26%;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.user_info > span:last-child {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.ant-dropdown-trigger {
+    cursor: pointer;
+}
+
+.ant-dropdown {
+    top: 45px !important;
+}
+
+.ant-menu-item,
+.ant-menu-submenu-title {
+    font-weight: 600;
+}
+
+.ant-table-container {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.ant-table-body {
+    flex: auto;
+    overflow: scroll;
+    height: calc(100vh - 300px);
+}
+
+.ant-menu-sub.ant-menu-inline {
+    background: #f0f0f0;
+}
+
+.ant-menu {
+    background: none;
+}
+
+@media only screen and (min-width: 1224px) {
+    .ant-table-container,
+    .ant-table-body {
+        height: calc(100vh - 280px);
+    }
+}
+
+/* .table_preview_data .ant-table-tbody {
+    height: 10px !important;
+} */
+.table_preview_data .ant-table-container {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.table_preview_data .ant-table-body {
+    flex: auto;
+    overflow: scroll;
+    height: calc(100vh - 300px);
+}
+
+.ant-table-wrapper tr th {
+    background: rgb(0 156 215) !important;
+    color: #fff !important;
+    text-align: center !important;
+    border-right: 1px solid rgb(255 255 255 / 25%) !important;
+}
+
+.table-doituongkemtheo .ant-table-container {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.table-doituongkemtheo .ant-table-body {
+    flex: auto;
+    overflow: scroll;
+    height: calc(100vh - 300px);
+}
+
+.loading-layout {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.ant-table-thead > tr > th,
+.ant-table tfoot > tr > th,
+.ant-table tfoot > tr > td {
+    padding: 10px 10px !important;
+}
+
+.ant-page-header {
+    padding: 10px 0 !important;
+}
+
+.ant-menu-item-selected {
+    background-color: transparent !important;
+    color: initial !important;
+}
+
+.ant-menu-item-selected a {
+    color: #000000d9 !important;
+}
+
+.ant-menu-submenu-selected {
+    color: #1890ff !important;
+}
+
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+    border-right: transparent !important;
+}
+
+.active_menu {
+    background-color: #e6f7ff !important;
+    color: #1890ff !important;
+    border-right: 3px solid !important;
+    font-style: italic;
+}
+
+.active_menu a {
+    color: #1890ff !important;
+    font-style: italic;
+}
+
+fieldset {
+    margin-top: 15px;
+    border: 1px solid #8cc6dc;
+    padding: 12px;
+    -moz-border-radius: 8px;
+    border-radius: 4px;
+}
+
+legend {
+    color: #1890ff !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    width: unset !important;
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    font-size: 16px;
+}
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    position: absolute !important;
+    right: -14px !important;
+}
+
+.ant-form-item-label > label::after {
+    display: none;
+}
+
+.ant-tooltip-inner a {
+    color: #fff;
+}
+
+span.ant-menu-title-content {
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.ant-layout-sider {
+    overflow: auto !important;
+}
+
+.site-layout .site-layout-background {
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    margin: 5px 8px 0px 8px !important;
+    padding: 9px !important;
+}
+
+#root {
+    /* height: 100%; */
+    /* min-height: 100vh; */
+    /* overflow: hidden; */
+}
+
+*::-webkit-scrollbar {
+    display: block;
+    width: 5px;
+    height: 5px;
+}
+
+/* *::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey;
+    border-radius: 10px;
+} */
+
+*::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+
+* {
+    scrollbar-width: thin !important;
+    scrollbar-color: #7f7f7f white;
+}
+
+/* ---css antd table fontsize */
+
+.ant-table {
+    font-size: 12px !important;
+}
+
+.ant-modal-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* button.ant-switch {
+    display: none;
+} */
+
+/* responsive */
+@media only screen and (min-width: 600px) and (max-width: 671px) {
+    .layout-header .title-header {
+        color: #fff;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+
+    .user_info > span:last-child {
+        font-size: 11px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .user_info > span:first-child {
+        font-size: 12px;
+    }
+
+    .avatar_user {
+        height: 29px;
+        width: 29px;
+    }
+}
+
+/* tfoot.ant-table-summary {
+    display: none;
+} */
+
+.ant-spin-container {
+    padding: 7px 0px !important;
+}
+
+.ant-col.ant-col-12.ant-col-lg-4 {
+    padding-top: 5px !important;
+}
+
+@media only screen and (min-width: 513px) and (max-width: 599px) {
+    .layout-header .title-header {
+        color: #fff;
+        font-size: 11px;
+        margin-left: 20px;
+    }
+
+    .user_info > span:last-child {
+        font-size: 11px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .user_info > span:first-child {
+        font-size: 12px;
+    }
+
+    .avatar_user {
+        height: 29px;
+        width: 29px;
+    }
+}
+
+@media only screen and (max-width: 513px) {
+    .layout-header .title-header {
+        display: none;
+    }
+
+    .user_info > span:last-child {
+        font-size: 11px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .user_info > span:first-child {
+        font-size: 12px;
+    }
+
+    .avatar_user {
+        height: 29px;
+        width: 29px;
+    }
+}
+
+.ant-result-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+button.ant-btn.ant-btn-primary.btn-submit {
+    font-size: 13px;
+}
+.ant-menu-vertical.ant-menu-sub,
+.ant-menu-vertical-left.ant-menu-sub,
+.ant-menu-vertical-right.ant-menu-sub {
+    min-width: 0 !important;
+    max-height: calc(100vh - 100px);
+    padding: 0;
+    overflow: hidden;
+    border-right: 0;
+}

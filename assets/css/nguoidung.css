@@ -1,0 +1,74 @@
+.ant-card-head-title {
+    font-weight: bold !important;
+    padding: 10px 1px 0px 0px !important;
+}
+
+@media screen and (min-device-width: 1063px) and (max-device-width: 1089px) {
+    .btn-themmmoi {
+        font-size: 12px;
+    }
+    .btn-delete {
+        font-size: 12px;
+    }
+    .btn-submit {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-device-width: 1057px) and (max-device-width: 1062px) {
+    .btn-themmmoi-nguoidung {
+        font-size: 12px;
+        margin-top: -1px;
+    }
+    .btn-delete-nguoidung {
+        margin-top: -1px;
+    }
+    .btn-submit-nguoidung {
+        margin-left: 421px;
+        margin-top: -32px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-device-width: 993px) and (max-device-width: 1024px) {
+    .btn-themmmoi-nguoidung {
+        margin-top: 36px;
+        margin-left: -8px;
+    }
+    .btn-delete-nguoidung {
+        margin-right: 11px;
+        margin-top: 36px;
+    }
+    .btn-submit-nguoidung {
+        margin-top: 5px;
+        margin-left: 306px;
+    }
+    .ant-page-header-heading-left {
+        width: 442px;
+        margin-top: -23px;
+    }
+}
+
+/* IPab */
+
+/* @media screen and (min-device-width: 760px) and (max-device-width: 768px) {
+      .btn-themmmoi-nguoidung {
+        margin-top: 55px;
+        margin-left: -8px;
+    }
+    .btn-delete-nguoidung {
+        margin-right: 11px;
+        margin-top: 55px;
+    }
+    .btn-submit-nguoidung {
+        margin-top: 2px;
+        margin-left: 0  px;
+    }
+    .ant-page-header-heading-left {
+        width: 448px;
+        margin-top: -23px;
+    }
+    .ant-select.ant-select-single.ant-select-allow-clear .ant-select-show-arrow .ant-select-show-search{
+        width: 210px;
+    }
+} */

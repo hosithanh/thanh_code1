@@ -1,0 +1,123 @@
+.logo-img {
+    width: 50px;
+}
+.login-content {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+    background-image: url('../image/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-content .form-login {
+    position: absolute;
+    height: 60vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 20px 20px 10px rgb(0 0 0 / 15%);
+    width: 25%;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+.login-content .form-title {
+    text-transform: uppercase;
+    color: #fa3a3c;
+    font-weight: 600;
+    /* margin-bottom: 20px; */
+    text-align: center;
+    font-size: 16px;
+}
+.login-content .ant-form-item-label {
+    width: 100%;
+    text-align: left;
+}
+.login-content .max-width-form {
+    width: 70%;
+}
+.login-content .form-input {
+    height: 40px;
+    background: #fff;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 60%);
+    border-radius: 6px;
+    border: 0;
+}
+.login-content .btn-submit {
+    background-color: #ed1c1ed4;
+    padding: 9px 20px;
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+.login-content .ant-form-item {
+    margin-bottom: 18px;
+}
+@media screen and (max-width: 1440px) {
+    .login-content .form-login {
+        width: 28%;
+        height: 80vh;
+    }
+}
+@media screen and (max-width: 1360px) {
+    .login-content .form-login {
+        width: 30%;
+        height: 65vh;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .login-content .form-login {
+        width: 40%;
+    }
+    .login-content .max-width-form {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .login-content .form-login {
+        width: 50%;
+        height: 65vh;
+    }
+}
+@media screen and (max-width: 425px) {
+    .login-content .form-login {
+        width: 75%;
+        height: 70vh;
+    }
+    .login-content .form-title {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .login-content .form-login {
+        width: 80%;
+        height: 85vh;
+    }
+    .login-content .max-width-form {
+        width: 85%;
+    }
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-box-shadow: #fff;
+    transition: background-color 5000s ease-in-out 0s;
+}

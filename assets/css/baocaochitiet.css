@@ -1,0 +1,16 @@
+.title_baocao {
+    font-weight: 600;
+    font-size: 14px;
+}
+.site-layout .site-layout-background {
+padding: 0px 9px !important;
+    margin: 0px 8px 0px 8px !important;
+}
+.tungay{
+    margin-right: 20px;
+}
+@media only screen and (max-width: 991px) {
+  .tungay{
+    margin-right: 0px;
+}
+}

@@ -1,0 +1,140 @@
+/* .footer--content {
+    text-align: center;
+    padding: 10px 9px 50px;
+    line-height: 6px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 1600px) {
+    .email--information {
+        text-align: left;
+    }
+    .contact--information {
+        text-align: right;
+    }
+}
+
+@media only screen and(min-width:901px) and (max-width: 1326px) {
+    .footer--content {
+        text-align: center;
+        padding: 10px 50px;
+        line-height: 5px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .email--information {
+        text-align: left;
+    }
+    .contact--information {
+        text-align: right;
+    }
+}
+@media only screen and (min-width: 805px) and (max-width: 900px) {
+    .footer--content {
+        padding: 10px 50px;
+    }
+
+    .dvql {
+        font-size: 10.5px;
+        width: 100%;
+    }
+    .email--information {
+        font-size: 10.5px;
+        width: 100%;
+    }
+
+    .contact--information {
+        font-size: 10.5px;
+        width: 100%;
+    }
+
+    .footer--content {
+        height: 90px;
+    }
+}
+
+@media only screen and (min-width: 699px) and (max-width: 804px) {
+    .footer--content {
+        padding: 0px 50px;
+        height: 200px;
+    }
+
+    .dvql {
+        display: inline-block;
+        font-size: 10.5px;
+        width: 100%;
+        line-height: 11px;
+    }
+
+    .email--information {
+        display: inline-block;
+        font-size: 10.5px;
+        width: 100%;
+        line-height: 11px;
+    }
+
+    .contact--information {
+        display: inline-block;
+        font-size: 10.5px;
+        width: 100%;
+        line-height: 11px;
+    }
+}
+@media only screen and (min-width: 605px) and (max-width: 698px) {
+    .footer--content {
+        padding: 0px 3px;
+        height: 100px;
+    }
+
+    .dvql {
+        display: inline-block;
+        font-size: 10.5px;
+        width: 100%;
+        line-height: 11px;
+    }
+
+    .email--information {
+        display: inline-block;
+
+        font-size: 10.5px;
+        width: 100%;
+        line-height: 11px;
+    }
+
+    .contact--information {
+        display: inline-block;
+        font-size: 10.5px;
+        width: 100%;
+        line-height: 11px;
+    }
+}
+
+@media only screen and (max-width: 604px) {
+    .footer--content {
+        padding: 10px 5px;
+        height: 100px;
+    }
+
+    .dvql {
+        display: inline-block;
+        font-size: 10.5px;
+        width: 100%;
+        line-height: 11px;
+    }
+
+    .email--information {
+        display: inline-block;
+
+        font-size: 10.5px;
+        width: 100%;
+        line-height: 11px;
+    }
+
+    .contact--information {
+        display: inline-block;
+        font-size: 10.5px;
+        width: 100%;
+        line-height: 11px;
+    }
+} */

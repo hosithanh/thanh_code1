@@ -1,0 +1,109 @@
+.dashboard .ant-statistic-title {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.dashboard .row-date {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.dashboard .count-result {
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.dashboard .ant-list-item-meta-title {
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+.dashboard .list-overflow {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.dashboard .row-statistic,
+.dashboard .chart,
+.dashboard .list-object {
+    padding: 16px;
+    box-shadow: rgb(189 183 183 / 40%) 0px 0px 3px;
+}
+
+.dashboard .chart {
+    padding-top: 5px !important;
+}
+
+.dashboard .list-object {
+    height: 100%;
+}
+
+.dashboard .list-overflow::-webkit-scrollbar {
+    width: 5px;
+    background-color: #f5f5f5;
+}
+
+.dashboard .list-overflow::-webkit-scrollbar-track {
+    border: 5px solid #f5f5f5;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.dashboard .list-overflow::-webkit-scrollbar-thumb {
+    background-color: #1890ff;
+    border-radius: 10px;
+}
+
+.dashboard .list-overflow {
+    scrollbar-width: thin !important;
+    scrollbar-color: #1890ff #f5f5f5;
+}
+
+.dashboard .box-statistic .icon-statistic {
+    font-size: 20px;
+}
+
+@media (min-width: 980px) and (max-width: 1230px) {
+    .dashboard .ant-card-body {
+        padding: 16px 10px;
+    }
+    .dashboard .title-statistic {
+        min-height: 66px;
+    }
+}
+
+.centerspin {
+    /* margin-left: -10% !important;
+    margin-top: 80px !important; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.ant-list-item-meta-title {
+    font-size: 13px !important;
+}
+
+.count-result {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+.ant-list-lg .ant-list-item {
+    padding: 10px 24px !important;
+}
+
+.dashboard .list-overflow {
+    height: 40vh !important;
+}
+
+.luottruycap {
+    text-align: center;
+}
+
+.ant-card-body {
+    padding: 20px 0px !important;
+}

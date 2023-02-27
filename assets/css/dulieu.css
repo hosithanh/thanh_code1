@@ -1,0 +1,125 @@
+.dulieu-detail .dulieu-header {
+    position: relative;
+}
+
+.dulieu-detail .dulieu-header .btn-submit {
+    position: absolute;
+    right: 0;
+    bottom: -45px;
+}
+
+.dulieu-detail .dulieu-header .ant-form-item-label {
+    text-align: left;
+    overflow: unset;
+}
+
+.dulieu-detail .dulieu-header .ant-form-item-label>label {
+    white-space: pre-wrap;
+}
+
+.dulieu-detail .title-input {
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.dulieu-detail .title-input::after {
+    content: '*';
+    font-family: SimSun, sans-serif;
+    color: #ff4d4f;
+    line-height: 1;
+    font-size: 14px;
+    margin-left: 4px;
+}
+.dulieu-detail .title-input:hover::after {
+    content: ' Theo Công văn 9318';
+    font-family: 'Times New Roman', Times, serif;
+    color: #ff4d4f;
+    line-height: 1;
+    font-size: 12px;
+    margin-left: 4px;
+    display: inline-block;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.file-upload {
+    cursor: pointer;
+    padding: 4px 6px;
+    color: #fff;
+    background: #58b52b;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+.bancoyeu {
+    background: orange;
+}
+
+.file-upload input[type='file'] {
+    display: none;
+}
+
+.dulieu-detail .dulieu-header .ant-form-item {
+    margin-bottom: 0;
+}
+
+.dulieu-detail .title-preview {
+    margin: 15px 0 5px 0;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* color:#58b52b */
+    
+}
+
+
+
+
+
+
+
+.dulieu-detail fieldset>.ant-row:nth-child(2) {
+    margin-top: -15px !important;
+}
+
+.modal-pdf>.ant-modal-content>.ant-modal-body {
+    padding: 4px;
+}
+
+.dulieu-detail .ant-page-header-heading-title {
+    width: 620px;
+}
+
+.dulieu-detail-iframe .ant-page-header-heading-title {
+    width: 100% !important;
+}
+
+/* .spin_kyso {
+    transform: translate(550%, 30%);
+    position: absolute;
+} */
+@media screen and (max-width: 1400px) {
+    .dulieu-detail .ant-page-header-heading-title {
+        width: 210px;
+    }
+
+    .dulieu-detail-iframe .ant-page-header-heading-title {
+        width: 100% !important;
+    }
+
+    .detail-title-dulieu .ant-page-header-heading-title {
+        width: initial;
+    }
+}
+
+.doiTuongGopLoaiKetQuaDTOs {
+    padding: 6px 0;
+}
+
+.table_preview_data .ant-table-body {
+    /* flex: auto; */
+    /* overflow: scroll; */
+    height: auto;
+}

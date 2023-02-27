@@ -1,0 +1,12 @@
+.search-overlay-dropdown {
+    max-width: 100vw;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 2px;
+    outline: none;
+    -webkit-box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%), 0 6px 16px 0 rgb(0 0 0 / 8%), 0 9px 28px 8px rgb(0 0 0 / 5%);
+    box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%), 0 6px 16px 0 rgb(0 0 0 / 8%), 0 9px 28px 8px rgb(0 0 0 / 5%);
+}
+.ant-btn.ant-btn-default.ant-btn-icon-only.ant-input-search-button {
+    width: 0px;
+}

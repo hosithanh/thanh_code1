@@ -1,0 +1,29 @@
+.form-import{
+  padding: 20px 20px;
+  background-color: #e6f7ff;
+  font-size: 16px;
+}
+.importExcel {
+  padding: 10px;
+  width: 100%;
+  background: #fafafa;
+  border: none;
+}
+.form-import label{
+  font-weight: bold;
+}
+.note {
+  font-style: italic;
+  margin-top: 10px;
+}
+.button-import {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.ant-spin-nested-loading {
+  min-height: 100%;
+}
+.ant-spin-nested-loading > div > .ant-spin {
+  min-height: 100%;
+}
